@@ -1,0 +1,129 @@
+{
+  "result": [
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/react.svg",
+      "stackName": "React",
+      "description": [
+        "React 기반의 웹 애플리케이션을 구현하는 데 능숙합니다.",
+        "컴포넌트 기반 개발에 익숙하며, 최적화된 컴포넌트 단위로 애플리케이션을 구성합니다.",
+        "WebSocket을 활용하여 실시간 채팅 기능을 구현할 수 있습니다.",
+        "사용자 데이터를 브라우저에 저장하는 기능을 react-cookie 플러그인을 활용하여 구현했습니다.",
+        "React 라이프 사이클을 이해하고, 애플리케이션 성능을 최적화하기 위해 활용합니다.",
+        "상태 관리에 Redux를 통해 효율적으로 상태를 관리한 경험이 있습니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/vuejs.svg",
+      "stackName": "Vue",
+      "description": [
+        "Vue.js를 학습하고 기업 인턴 프로젝트에서 활용한 경험이 있습니다.",
+        "Vue 컴포넌트 기반의 개발에 경험이 있으며, 단일 파일 컴포넌트 체계를 활용한 경험이 있습니다.",
+        "Vue Router를 사용하여 SPA(Single Page Application)를 구현한 경험이 있습니다.",
+        "Vue 컴포넌트 간의 통신 방법을 이해하고 props 및 custom events를 사용한 경험이 있습니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/html5.svg",
+      "stackName": "HTML",
+      "description": [
+        "HTML을 사용하여 웹 페이지를 작성합니다.",
+        "HTML 리빙스탠다드(Living Standard)를 기준으로 개발합니다.",
+        "시맨틱한 요소들을 적극 활용하여 페이지 구조를 설계합니다.",
+        "웹 접근성을 고려한 마크업을 구현합니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/javascript.svg",
+      "stackName": "JavaScript",
+      "description": [
+        "자바스크립트에 대해 기본적인 지식을 갖고 있습니다.",
+        "동기와 비동기에 대한 개념을 이해하고 있습니다.",
+        "비동기 프로그래밍 및 Promise, async/await에 대한 경험이 있습니다.",
+        "스프레드 오퍼레이터나 구조 분해 할당과 같은 문법에 익숙합니다.",
+        "실행 컨텍스트와 클래스, 그리고 콜백 함수와 콜백 지옥을 알고 있습니다.",
+        "This를 추론하여 상황에 맞춰 사용할 수 있습니다.",
+        "ES6+ 문법을 활용한 개발 경험이 있습니다.",
+        "함수형 프로그래밍 개념을 이해하고 적용할 수 있습니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/sass.svg",
+      "stackName": "Sass",
+      "description": [
+        "CSS 전처리기인 Sass를 주로 활용합니다.",
+        "주로 mixin을 활용하여 코드를 모듈화하고 재사용성을 높이는데 노력합니다.",
+        "Sass를 통해 코드의 가독성을 향상시키고 유지보수성을 높이는 작업을 수행합니다.",
+        "Sass를 이용한 웹 반응형 프로젝트를 진행중입니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/styledcomponents.svg",
+      "stackName": "styled-components",
+      "description": [
+        "styled-components를 사용한 컴포넌트 개발을 선호합니다.",
+        "재사용 가능한 스타일 컴포넌트를 작성하여 코드의 가독성과 재사용성을 높였습니다.",
+        "CSS-in-JS에 대한 이해가 있습니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/tailwindcss.svg",
+      "stackName": "Tailwind CSS",
+      "description": [
+        "Vue.js, React에서 Tailwind CSS를 통해 공용 컴포넌트를 개발한 경험이 있습니다.",
+        "Tailwind의 풍부한 유틸리티 클래스를 이용하여 빠르고 일관된 디자인 시스템을 구축했습니다.",
+        "Responsiveness를 위한 Breakpoint와 편리한 반응형 디자인을 구현하는 방법을 숙지하고 있습니다.",
+        "Tailwind를 이용한 웹 반응형 프로젝트를 진행중입니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/redux.svg",
+      "stackName": "Redux",
+      "description": [
+        "Redux를 사용하여 상태 관리를 수행합니다.",
+        "액션, 리듀서, 스토어 등의 개념을 이해하고, Redux를 통한 상태 관리를 습득중입니다.",
+        "리덕스의 불변성 유지 및 순수 함수 개념을 이해하고 적용합니다.",
+        "리프팅(Lifting) 및 드릴링(Drilling)을 피하고, 상태 관리를 효율적으로 수행합니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/axios.svg",
+      "stackName": "Axios",
+      "description": [
+        "HTTP 클라이언트 라이브러리 Axios를 활용하여 효율적인 데이터 통신을 수행합니다.",
+        "비동기 요청을 보내고 응답을 처리함으로써 웹 애플리케이션의 데이터 흐름을 관리합니다.",
+        "Axios의 다양한 기능 및 옵션을 이해하고 활용할 수 있습니다.",
+        "프로미스 객체를 활용하여 비동기 코드를 다루어봤습니다.",
+        "Mock 데이터 및 테스트 API를 이용하여 Axios를 활용한 데이터 통신을 테스트한 경험이 있습니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/swiper.svg",
+      "stackName": "Swiper",
+      "description": [
+        "Swiper 라이브러리를 활용하여 이미지 슬라이더를 구현합니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/vite.svg",
+      "stackName": "Vite",
+      "description": [
+        "Vite를 활용하여 빠른 프로젝트 설정 및 개발을 수행합니다."
+      ]
+    },
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/createreactapp.svg",
+      "stackName": "CRA",
+      "description": ["Create React App을 사용하여 초기 프로젝트를 설정합니다."]
+    },
+
+    {
+      "stackImage": "/LeeChengwon-Portfolio/images/skillset/git.svg",
+      "stackName": "Git",
+      "description": [
+        "Git을 통한 협업과 버전 관리를 활용합니다.",
+        "GitHub Flow, Git Flow와 같은 다양한 브랜치 전략을 이해하고 프로젝트에 적용 가능합니다.",
+        "협업 툴로써 Fork를 활용한 경험이 있습니다."
+      ]
+    }
+  ]
+}
