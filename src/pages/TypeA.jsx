@@ -124,7 +124,7 @@ const TypeA = () => {
                         </div>
 
                         <div className="flex flex-col gap-4">
-                          <h2 className="text-3xl md:text-2xl text-[#fff] font-bold truncate">
+                          <h2 className="text-2xl md:text-2xl text-[#fff] font-bold truncate">
                             {projectName}
                           </h2>
                           <ul className="text-xl md:text-[14px] text-[#fff]/70 sm:text-[20px]">
