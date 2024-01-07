@@ -1,0 +1,116 @@
+{
+  "result": [
+    {
+      "targetDevice": ["pc", "반응형미적용"],
+      "deployUrl": "https://leechengwon.github.io/widely/",
+      "projectName": "와이들리",
+      "projectImage": "/LeeChengwon-Portfolio/images/my2.png",
+      "description": "카피 프로젝트",
+      "techStacks": ["React", "Sass", "JavaScript", "CRA", "Git"],
+      "mainTask": [
+        "헤더 글로벌 컴포넌트 개발",
+        "리스트 페이지 개발",
+        "디테일 페이지 개발",
+        "페이지네이션 로직개발",
+        "검색 기능 개발"
+      ],
+      "repoUrl": "https://github.com/leechengwon/widely"
+    },
+    {
+      "targetDevice": ["pc", "반응형미적용"],
+      "deployUrl": "https://leechengwon.github.io/weet/",
+      "projectName": "WEE.T",
+      "projectImage": "/LeeChengwon-Portfolio/images/weet1.png",
+      "description": "WEE.T 토탈 웹 개발",
+      "techStacks": ["React", "Sass", "JavaScript", "CRA", "Git"],
+      "mainTask": [
+        "Socket.IO 활용 채팅기능 로직 개발",
+        "애니메이션 로직 개발",
+        "마이페이지 로직 개발",
+        "카카오 지도 api 사용",
+        "헤더 글로벌 컴포넌트 개발"
+      ],
+      "repoUrl": "https://github.com/leechengwon/weet"
+    },
+    {
+      "targetDevice": ["mobile", "반응형"],
+      "deployUrl": "https://github.com/leechengwon",
+      "projectName": "MedistreamPlace",
+      "projectImage": "/LeeChengwon-Portfolio/images/int.png",
+      "description": "기업 협업 프로젝트",
+      "techStacks": [
+        "Vue 3",
+        "Tailwind CSS",
+        "JavaScript",
+        "CRA",
+        "Git",
+        "Axios"
+      ],
+      "mainTask": ["회사 보안 유지 서약서로 인해 증명서로 대체합니다."],
+      "repoUrl": "https://github.com/leechengwon"
+    },
+    {
+      "targetDevice": ["pc", "반응형미적용"],
+      "deployUrl": "https://leechengwon.github.io/goobne/",
+      "projectName": "굽으네",
+      "projectImage": "/LeeChengwon-Portfolio/images/my3.png",
+      "description": "카피 프로젝트",
+      "techStacks": [
+        "React",
+        "styled-components",
+        "JavaScript",
+        "Redux",
+        "Axios",
+        "Vite",
+        "Git"
+      ],
+      "mainTask": [
+        "버튼 / 아이콘 등등 공용 컴포넌트 개발",
+        "글로벌 네비 컴포넌트 개발",
+        "회원가입 페이지 개발",
+        "로그인 페이지 개발",
+        "리스트 페이지 개발",
+        "Promise로 response 테스트 코드 로직개발",
+        "react-cookie 플러그인 활용으로 아이디 저장 기능 구현",
+        "Lottie 로딩 개발"
+      ],
+      "repoUrl": "https://github.com/leechengwon/goobne"
+    },
+    {
+      "targetDevice": ["반응형", "pc"],
+      "deployUrl": "https://github.com/leechengwon/money-protector",
+      "projectName": "지갑지켜 진행중입니다.",
+      "projectImage": "/LeeChengwon-Portfolio/images/money.png",
+      "description": "토탈 웹 프로젝트",
+      "techStacks": [
+        "React",
+        "Tailwind CSS",
+        "JavaScript",
+        "Axios",
+        "Redux",
+        "Vite",
+        "Git"
+      ],
+      "mainTask": ["프로젝트 진행중"],
+      "repoUrl": "https://github.com/leechengwon/money-protector"
+    },
+    {
+      "targetDevice": ["반응형", "mobile"],
+      "deployUrl": "https://github.com/leechengwon",
+      "projectName": "날씨어때?나뭐입어? 진행중입니다.",
+      "projectImage": "/LeeChengwon-Portfolio/images/aa.png",
+      "description": "토탈 웹 프로젝트",
+      "techStacks": [
+        "React",
+        "Sass",
+        "JavaScript",
+        "Axios",
+        "Redux",
+        "Vite",
+        "Git"
+      ],
+      "mainTask": ["프로젝트 진행중"],
+      "repoUrl": "https://github.com/leechengwon"
+    }
+  ]
+}
