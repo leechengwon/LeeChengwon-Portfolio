@@ -52,8 +52,23 @@ const TypeA = () => {
 
       {/* Portfolio */}
       <section ref={targetRef} className="py-16 px-4 lg:px-8">
+        <div className="flex flex-col">
+          <div>
+            <span className="text-[red]">* </span>
+            <span className="font-bold">
+              Item Box 클릭시 Project HomePage 이동
+            </span>
+          </div>
+          <div>
+            <span className="text-[red]">* </span>
+            <span className="font-bold">
+              깃허브 아이콘 클릭시 Github repository 이동
+            </span>
+          </div>
+        </div>
         <div className="flex flex-col items-center gap-16 w-full">
           <h1 className="text-6xl font-bold">PORTFOLIO</h1>
+
           <ul className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 w-full">
             {portfolioData.map(
               (
@@ -144,7 +159,7 @@ const TypeA = () => {
                       href={repoUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="absolute top-3 right-3 z-10 bg-[#fff] rounded-full invisible opacity-0 transition-all duration-150 ease-in-out group-hover:visible group-hover:opacity-100"
+                      className="absolute top-3 right-3 z-10 bg-[#fff] rounded-full invisible opacity-0 transition-all duration-150 ease-in-out group-hover:visible group-hover:opacity-100 w-[50px] h-[50px]"
                     >
                       <img
                         src="/LeeChengwon-Portfolio/images/contact/github.svg"

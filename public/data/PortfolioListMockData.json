@@ -79,7 +79,7 @@
     {
       "targetDevice": ["반응형", "pc"],
       "deployUrl": "https://github.com/leechengwon/money-protector",
-      "projectName": "지갑지켜 진행중",
+      "projectName": "지갑지켜 진행중입니다.",
       "projectImage": "/LeeChengwon-Portfolio/images/money.png",
       "description": "토탈 웹 프로젝트",
       "techStacks": [
@@ -97,7 +97,7 @@
     {
       "targetDevice": ["반응형", "mobile"],
       "deployUrl": "https://github.com/leechengwon",
-      "projectName": "날씨어때?나뭐입어? 진행중",
+      "projectName": "날씨어때?나뭐입어? 진행중입니다.",
       "projectImage": "/LeeChengwon-Portfolio/images/aa.png",
       "description": "토탈 웹 프로젝트",
       "techStacks": [
