@@ -77,7 +77,7 @@
       "repoUrl": "https://github.com/leechengwon/goobne"
     },
     {
-      "targetDevice": ["반응형", "pc"],
+      "targetDevice": ["반응형", "pc", "mobile"],
       "deployUrl": "https://github.com/leechengwon/money-protector",
       "projectName": "지갑지켜 진행중입니다.",
       "projectImage": "/LeeChengwon-Portfolio/images/money.png",
@@ -95,10 +95,10 @@
       "repoUrl": "https://github.com/leechengwon/money-protector"
     },
     {
-      "targetDevice": ["반응형", "mobile"],
-      "deployUrl": "https://github.com/leechengwon",
+      "targetDevice": ["반응형", "mobile", "pc"],
+      "deployUrl": "https://github.com/team0102/weather-frontend",
       "projectName": "날씨어때?나뭐입어? 진행중입니다.",
-      "projectImage": "/LeeChengwon-Portfolio/images/aa.png",
+      "projectImage": "/LeeChengwon-Portfolio/images/Test.png",
       "description": "토탈 웹 프로젝트",
       "techStacks": [
         "React",
@@ -110,7 +110,7 @@
         "Git"
       ],
       "mainTask": ["프로젝트 진행중"],
-      "repoUrl": "https://github.com/leechengwon"
+      "repoUrl": "https://github.com/team0102/weather-frontend"
     }
   ]
 }
