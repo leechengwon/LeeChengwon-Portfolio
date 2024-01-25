@@ -78,7 +78,7 @@
     },
     {
       "targetDevice": ["반응형", "pc", "mobile"],
-      "deployUrl": "https://leechengwon.github.io/moneyprotector/ ",
+      "deployUrl": "https://leechengwon.github.io/account-book/",
       "projectName": "지갑지켜 가계부",
       "projectImage": "/LeeChengwon-Portfolio/images/money.png",
       "description": "토탈 웹 프로젝트",
@@ -100,7 +100,7 @@
         "가계부페이지",
         "차트페이지"
       ],
-      "repoUrl": "https://github.com/leechengwon/moneyprotector"
+      "repoUrl": "https://github.com/leechengwon/account-book"
     },
     {
       "targetDevice": ["반응형", "mobile", "pc"],
