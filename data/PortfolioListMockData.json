@@ -50,7 +50,7 @@
       "repoUrl": "https://github.com/leechengwon"
     },
     {
-      "targetDevice": ["pc", "반응형미적용"],
+      "targetDevice": ["pc", "mobile", "반응형"],
       "deployUrl": "https://leechengwon.github.io/goobne/",
       "projectName": "굽으네",
       "projectImage": "/LeeChengwon-Portfolio/images/my3.png",
