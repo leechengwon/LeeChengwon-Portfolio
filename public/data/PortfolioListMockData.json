@@ -78,8 +78,8 @@
     },
     {
       "targetDevice": ["반응형", "pc", "mobile"],
-      "deployUrl": "https://github.com/leechengwon/money-protector",
-      "projectName": "지갑지켜 진행중입니다.",
+      "deployUrl": "https://leechengwon.github.io/account-book/",
+      "projectName": "지갑지켜 가계부",
       "projectImage": "/LeeChengwon-Portfolio/images/money.png",
       "description": "토탈 웹 프로젝트",
       "techStacks": [
@@ -87,12 +87,20 @@
         "Tailwind CSS",
         "JavaScript",
         "Axios",
-        "Redux",
+        "Echarts",
         "Vite",
         "Git"
       ],
-      "mainTask": ["프로젝트 진행중"],
-      "repoUrl": "https://github.com/leechengwon/money-protector"
+      "mainTask": [
+        "공용 컴포넌트 개발 ",
+        "전체 데이터 연결",
+        "페이지네이션",
+        "TestAPI 로직구성",
+        "로그인/회원가입페이지",
+        "가계부페이지",
+        "차트페이지"
+      ],
+      "repoUrl": "https://github.com/leechengwon/account-book"
     },
     {
       "targetDevice": ["반응형", "mobile", "pc"],
