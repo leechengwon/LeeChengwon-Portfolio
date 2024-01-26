@@ -18,7 +18,7 @@
       "repoUrl": "https://github.com/leechengwon/widely"
     },
     {
-      "targetDevice": ["pc", "반응형미적용"],
+      "targetDevice": ["pc", "mobile", "반응형"],
       "deployUrl": "https://leechengwon.github.io/weet/",
       "projectName": "WEE.T",
       "projectImage": "/LeeChengwon-Portfolio/images/weet1.png",
