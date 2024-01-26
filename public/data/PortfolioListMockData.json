@@ -1,7 +1,7 @@
 {
   "result": [
     {
-      "targetDevice": ["pc", "반응형미적용"],
+      "targetDevice": ["pc", "mobile", "반응형"],
       "deployUrl": "https://leechengwon.github.io/widely/",
       "projectName": "와이들리",
       "projectImage": "/LeeChengwon-Portfolio/images/my2.png",
@@ -12,7 +12,8 @@
         "리스트 페이지 개발",
         "디테일 페이지 개발",
         "페이지네이션 로직개발",
-        "검색 기능 개발"
+        "검색 기능 개발",
+        "반응형리팩토링"
       ],
       "repoUrl": "https://github.com/leechengwon/widely"
     },
@@ -66,6 +67,7 @@
       ],
       "mainTask": [
         "버튼 / 아이콘 등등 공용 컴포넌트 개발",
+        "반응형리팩토링",
         "글로벌 네비 컴포넌트 개발",
         "회원가입 페이지 개발",
         "로그인 페이지 개발",
@@ -77,7 +79,7 @@
       "repoUrl": "https://github.com/leechengwon/goobne"
     },
     {
-      "targetDevice": ["반응형", "pc", "mobile"],
+      "targetDevice": ["pc", "mobile", "반응형"],
       "deployUrl": "https://leechengwon.github.io/account-book/",
       "projectName": "지갑지켜 가계부",
       "projectImage": "/LeeChengwon-Portfolio/images/money.png",
@@ -103,7 +105,7 @@
       "repoUrl": "https://github.com/leechengwon/account-book"
     },
     {
-      "targetDevice": ["반응형", "mobile", "pc"],
+      "targetDevice": ["pc", "mobile", "반응형"],
       "deployUrl": "https://github.com/team0102/weather-frontend",
       "projectName": "날씨어때?나뭐입어? 진행중입니다.",
       "projectImage": "/LeeChengwon-Portfolio/images/Test.png",
