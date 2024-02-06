@@ -8,12 +8,13 @@
       "description": "카피 프로젝트",
       "techStacks": ["React", "Sass", "JavaScript", "CRA", "Git"],
       "mainTask": [
-        "헤더 글로벌 컴포넌트 개발",
-        "리스트 페이지 개발",
-        "디테일 페이지 개발",
-        "페이지네이션 로직개발",
+        "글로벌 Header 컴포넌트 개발",
+        "리스트, 디테일 페이지 개발",
+        "페이지네이션 개발",
+        "드롭다운 메뉴 기능 개발",
         "검색 기능 개발",
-        "반응형리팩토링"
+        "스와이퍼 개발",
+        "반응형 리팩토링"
       ],
       "repoUrl": "https://github.com/leechengwon/widely"
     },
@@ -25,11 +26,12 @@
       "description": "WEE.T 토탈 웹 개발",
       "techStacks": ["React", "Sass", "JavaScript", "CRA", "Git"],
       "mainTask": [
-        "Socket.IO 활용 채팅기능 로직 개발",
-        "애니메이션 로직 개발",
-        "마이페이지 로직 개발",
-        "카카오 지도 api 사용",
-        "헤더 글로벌 컴포넌트 개발"
+        "Socket.IO 활용 채팅 기능 개발",
+        "간단한 애니메이션 기능 개발",
+        "마이페이지, 식단/운동 페이지 개발",
+        "카카오 지도 API 사용으로 위치 기반 서비스 개발",
+        "헤더 글로벌 컴포넌트 개발",
+        "반응형 리팩토링"
       ],
       "repoUrl": "https://github.com/leechengwon/weet"
     },
@@ -47,7 +49,13 @@
         "Git",
         "Axios"
       ],
-      "mainTask": ["회사 보안 유지 서약서로 인해 증명서로 대체합니다."],
+      "mainTask": [
+        "사업자 인증 구축",
+        "본인인증 구축",
+        "네이버 소셜로그인 개발",
+        "회원가입 페이지 개발",
+        "로그인 페이지 개발"
+      ],
       "repoUrl": "https://github.com/leechengwon"
     },
     {
@@ -67,12 +75,13 @@
       ],
       "mainTask": [
         "버튼/아이콘 등 공용 컴포넌트 개발",
-        "반응형 리팩토링",
         "글로벌 Nav 컴포넌트 개발",
         "회원가입, 로그인, 리스트 페이지 개발",
-        "비동기 테스트 서버 로직개발",
+        "비동기 테스트 용 Mock Response 개발",
         "react-cookie 플러그인으로 아이디 저장 기능 구현",
-        "Lottie 로딩 개발"
+        "Lottie 로딩 개발",
+        "스와이퍼 개발",
+        "반응형 리팩토링"
       ],
       "repoUrl": "https://github.com/leechengwon/goobne"
     },
@@ -93,19 +102,16 @@
       ],
       "mainTask": [
         "공용 컴포넌트 개발 ",
-        "전체 데이터 연결",
-        "페이지네이션",
-        "TestAPI 로직구성",
-        "로그인/회원가입페이지",
-        "가계부페이지",
-        "차트페이지"
+        "비동기 테스트 용 Mock Response 개발",
+        "페이지네이션 개발",
+        "로그인/회원가입, 가계부, 차트(통계) 페이지 개발"
       ],
       "repoUrl": "https://github.com/leechengwon/account-book"
     },
     {
       "targetDevice": ["pc", "mobile", "반응형"],
       "deployUrl": "https://github.com/team0102/weather-frontend",
-      "projectName": "날씨어때?나뭐입어? 진행중입니다.",
+      "projectName": "날씨어때",
       "projectImage": "/LeeChengwon-Portfolio/images/Test.png",
       "description": "토탈 웹 프로젝트",
       "techStacks": [
