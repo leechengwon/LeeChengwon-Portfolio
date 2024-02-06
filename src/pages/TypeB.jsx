@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
+import AnimatedImage from "../component/AnimatedImage";
 
 const TypeB = () => {
   const [portfolioData, setPortfolioData] = useState([]);
@@ -8,8 +9,8 @@ const TypeB = () => {
   useEffect(() => {
     axios
       .all([
-        axios.get("/data/PortfolioListMockData.json"),
-        axios.get("/data/SkillsetMockData.json"),
+        axios.get("/LeeChengwon-Portfolio/data/PortfolioListMockData.json"),
+        axios.get("/LeeChengwon-Portfolio/data/SkillsetMockData.json"),
       ])
       .then(
         axios.spread((responseA, responseB) => {
@@ -39,11 +40,6 @@ const TypeB = () => {
           <ol>
             {/* 이 li 기준으로 커리어를 정리합니다. */}
             <li className="flex gap-8 lg:gap-4 py-8 flex-col lg:flex-row">
-              <div className="basis-0 lg:basis-60">
-                <h3 className="text-2xl">위코드</h3>
-                <span className="font-thin text-[#555]">2023.08 - 2023.11</span>
-              </div>
-
               <ol className="flex-1">
                 <li>
                   <ul className="flex flex-col gap-8">
@@ -58,70 +54,88 @@ const TypeB = () => {
                           techStacks,
                           mainTask,
                           repoUrl,
+                          projectImage,
                         },
                         index
                       ) => {
                         return (
-                          <li
+                          <div
                             key={index}
-                            className="flex flex-col gap-2 relative"
+                            style={{
+                              display: "flex",
+                              justifyContent: "space-between",
+                            }}
                           >
-                            <h4 className="flex items-center">
-                              {/* 타겟 디바이스의 값에 따라 다른 뱃지를 노출합니다. */}
-                              {targetDevice && (
-                                <div className="flex gap-1">
-                                  {targetDevice === "pc" && (
-                                    <span className="inline-block px-2 py-1 rounded-md bg-primary text-xs text-[#fff] whitespace-nowrap">
-                                      pc
-                                    </span>
-                                  )}
-                                  {targetDevice === "mobile" && (
-                                    <span className="inline-block px-2 py-1 rounded-md bg-secondary text-xs text-[#fff] whitespace-nowrap">
-                                      mobile
-                                    </span>
-                                  )}
-                                  {targetDevice === "responsive" && (
-                                    <span className="inline-block px-2 py-1 rounded-md bg-tertiary text-xs text-[#fff] whitespace-nowrap">
-                                      responsive
-                                    </span>
-                                  )}
-                                </div>
-                              )}
-                              <a
-                                href={deployUrl}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="ml-2 pr-10 text-2xl truncate hover:font-semibold active:font-bold"
-                              >
-                                {projectName}
-                              </a>
-                            </h4>
-                            <ul className="flex flex-col gap-2 pl-3">
-                              <li className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-1 before:absolute before:top-[10px] before:left-1 before:bg-[#000] before:rounded-full">
-                                <h5>간략 설명</h5>
-                                <span>{description}</span>
-                              </li>
-                              <li className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-1 before:absolute before:top-[10px] before:left-1 before:bg-[#000] before:rounded-full">
-                                <h5>기술 스택</h5>
-                                <span>{techStacks.join(", ")}</span>
-                              </li>
-                              <li className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-1 before:absolute before:top-[10px] before:left-1 before:bg-[#000] before:rounded-full">
-                                <h5>주요 작업</h5>
-                                <span>{mainTask.join(", ")}</span>
-                              </li>
-                            </ul>
-                            <a
-                              href={repoUrl}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="absolute top-0 right-0 w-8 h-8"
-                            >
-                              <img
-                                src="/images/contact/github.svg"
-                                alt="깃헙 저장소 링크"
+                            <div className="flex-1">
+                              <AnimatedImage
+                                imgSrc={projectImage}
+                                width={400}
+                                heigth={350}
                               />
-                            </a>
-                          </li>
+                            </div>
+                            <div className="flex-1 mt-10">
+                              <li
+                                key={index}
+                                className="flex flex-col gap-2 relative"
+                              >
+                                <h4 className="flex items-center">
+                                  {/* 타겟 디바이스의 값에 따라 다른 뱃지를 노출합니다. */}
+                                  {targetDevice && (
+                                    <div className="flex gap-1">
+                                      {targetDevice === "pc" && (
+                                        <span className="inline-block px-2 py-1 rounded-md bg-primary text-xs text-[#fff] whitespace-nowrap">
+                                          pc
+                                        </span>
+                                      )}
+                                      {targetDevice === "mobile" && (
+                                        <span className="inline-block px-2 py-1 rounded-md bg-secondary text-xs text-[#fff] whitespace-nowrap">
+                                          mobile
+                                        </span>
+                                      )}
+                                      {targetDevice === "responsive" && (
+                                        <span className="inline-block px-2 py-1 rounded-md bg-tertiary text-xs text-[#fff] whitespace-nowrap">
+                                          responsive
+                                        </span>
+                                      )}
+                                    </div>
+                                  )}
+                                  <a
+                                    href={deployUrl}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="ml-2 pr-10 text-2xl truncate hover:font-semibold active:font-bold"
+                                  >
+                                    {projectName}
+                                  </a>
+                                </h4>
+                                <ul className="flex flex-col gap-2 pl-3">
+                                  <li className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-1 before:absolute before:top-[10px] before:left-1 before:bg-[#000] before:rounded-full">
+                                    <h5>간략 설명</h5>
+                                    <span>{description}</span>
+                                  </li>
+                                  <li className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-1 before:absolute before:top-[10px] before:left-1 before:bg-[#000] before:rounded-full">
+                                    <h5>기술 스택</h5>
+                                    <span>{techStacks.join(", ")}</span>
+                                  </li>
+                                  <li className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-1 before:absolute before:top-[10px] before:left-1 before:bg-[#000] before:rounded-full">
+                                    <h5>주요 작업</h5>
+                                    <span>{mainTask.join(", ")}</span>
+                                  </li>
+                                </ul>
+                                <a
+                                  href={repoUrl}
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  className="absolute top-0 right-0 w-8 h-8"
+                                >
+                                  <img
+                                    src="/LeeChengwon-Portfolio/images/contact/github.svg"
+                                    alt="깃헙 저장소 링크"
+                                  />
+                                </a>
+                              </li>
+                            </div>
+                          </div>
                         );
                       }
                     )}
